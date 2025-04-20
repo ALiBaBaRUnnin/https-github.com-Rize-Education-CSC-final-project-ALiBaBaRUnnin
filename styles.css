@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.charity-profile {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+#extra-charity-info {
+  margin-top: 10px;
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+.volunteer-form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.volunteer-form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.volunteer-form button {
+  background-color: #28a745;
+}
+
+.volunteer-form button:hover {
+  background-color: #218838;
+}
