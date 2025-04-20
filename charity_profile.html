@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Profile | HelpHub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>HelpHub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="charities.html">Charities</a>
+      <a href="charity_profile.html">Charity Profile</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Charity Profile Section -->
+    <div id="charity-profile-box" class="charity-profile">
+      <h2>Charity Name</h2>
+      <p>This charity focuses on providing education resources to children in underdeveloped communities.</p>
+
+      <!-- Extra Info on Hover -->
+      <div id="extra-charity-info" style="display: none;">
+        <p><strong>Founded:</strong> 2010</p>
+        <p><strong>Mission:</strong> To ensure every child has access to quality education.</p>
+        <p><strong>Location:</strong> Chicago, IL</p>
+      </div>
+    </div>
+
+    <!-- Volunteer Button -->
+    <button id="volunteer-btn">Volunteer Now</button>
+
+    <!-- Volunteer Form (hidden by default) -->
+    <section id="volunteer-form-section" style="display: none;" class="volunteer-form">
+      <h3>Volunteer Sign Up</h3>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number">
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HelpHub. All rights reserved.</p>
+  </footer>
+
+  <script src="charity_profile.js"></script>
+</body>
+</html>
